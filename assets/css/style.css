@@ -1,0 +1,66 @@
+.font-1
+{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.font-2
+{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.cont-main
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-login 
+{
+    background: cornflowerblue;
+    height: 100vh;
+}
+.cont-login form 
+{
+    width: 70%;
+}
+
+.cont-main form 
+{
+    border: 2px solid #222;
+    padding: 25px;
+    background:rgbargb(0.38,0.38,0.38);
+    border-radius: 15px;
+}
+.cont-main label
+{
+    color: white;
+    font-weight: bold;
+}
+.cont-main form select 
+{
+    background: #404040;
+    color: #fff;
+    border: 1px solid #222;
+}
+   .form-control font-1 bg-base
+   {
+    background:#404040;
+   }
+
+.bg-base
+{
+   
+    background:#404040 !important;
+}
+
+
+@media only screen and (max-width: 700px) 
+{
+    .cont-main
+    {
+        height: auto;
+    }
+}
+.form-control font-1 bg-base
+{
+     background-color:#404040 !important;
+}
